@@ -1,0 +1,179 @@
+= Dawen Liang 
+
+~~~
+{}{img_left}{files/dawen.jpg}{Dawen Liang}{130}{140} \n
+Office: 7LE4 Schapiro CEPSR \n
+Email: {{<a href="http://safemail.justlikeed.net/" target="_blank"><img src="http://safemail.justlikeed.net/e/330cf1b98882d1c803be3136f162b0e6.png" border="0" align="absbottom" title="Email image created with safemail.justlikeed.net"></a>
+}} \n
+Github: [https://github.com/dawenl @dawenl]
+
+I am a third-year Ph.D. student in the [http://www.ee.columbia.edu/ Electrical
+Engineering Department] at [http://www.columbia.edu/ Columbia University], 
+as part of the [http://labrosa.ee.columbia.edu LabROSA],
+working with [http://www.ee.columbia.edu/~dpwe/ Professor Dan
+Ellis]. I also work closely with [http://www.cs.columbia.edu/~blei Professor David Blei], 
+[http://www.columbia.edu/~jwp2128 Professor John Paisley], 
+[http://www.cs.princeton.edu/~mdhoffma Dr. Matt Hoffman] and 
+[https://ccrma.stanford.edu/~gautham/Site/Gautham_J._Mysore.html Dr. Gautham Mysore].
+ My CV is available [files/cv.pdf here], as of July 2015.
+Prior to that, I obtained my master's degree in
+[http://www.cs.cmu.edu/~music/mat/index.html Music and Technology program] at
+[http://www.cmu.edu/index.shtml Carnegie Mellon University], working with
+[http://www.cs.cmu.edu/~rbd Professor Roger Dannenberg] in the
+[http://www.cs.cmu.edu School of Computer Science], where I was part of the
+[http://www.cs.cmu.edu/~music/ Computer Music Group]. 
+~~~
+
+== Education
+- Ph.D. Candidate, Electrical Engineering, [http://www.columbia.edu Columbia
+  University],
+  in progress 
+- M.S., Music and Technology, [http://www.cmu.edu Carnegie Mellon University],
+  May 2012
+- B.S., Computer Science,
+  [http://www.fudan.edu.cn Fudan University], Jun 2010
+
+== Research
+- Bayesian modeling and (approximate) inference with applications to audio signal
+  processing and recommender systems
+- Music information retrieval
+
+Some of my past research projects can be found [projects.html here].
+
+== Experience
+- Recommendation Systems Scientist Intern, Playlist Team, Pandora, May 2015 --
+  Aug 2015
+-- Investigate hybrid approaches to collaborative filtering. Mentors: [http://music.ece.drexel.edu/people/eschmidt 
+Erik Schmidt] and [http://www.cs.brandeis.edu/~kekib/ Keki Burjorjee].
+
+- Research Intern, Adobe Creative Technology Laboratory, Adobe Inc., May 2013 --
+  Aug 2013, May 2014 -- Aug 2014 
+-- Bayesian hierarchical model of audio. 
+Mentors: [http://www.cs.princeton.edu/~mdhoffma/ Matt Hoffman] and 
+[https://ccrma.stanford.edu/~gautham/Site/Gautham_J._Mysore.html Gautham Mysore].
+
+- Software Engineer Development Intern, Digital Delivery Team, Amazon.com, May
+  2011 -- Aug 2011
+-- Design and implement an efficient scheduling algorithm for periodicals delivery
+(deployed in production). 
+
+== Papers
+*Peer-reviewed Journal Articles*
+
+:{/Methods and Prospects for Human Computer Performance of Popular Music/}
+Roger B. Dannenberg, Nicolas E. Gold, Dawen Liang, Guangyu Xia, /Computer Music Journal/, 38(2):36-50, 2014, MIT Press.
+
+:{/Active Scores: Representation and Synchronization in Human-Computer Performance of Popular Music/}
+Roger B. Dannenberg, Nicolas E. Gold, Dawen Liang, Guangyu Xia, /Computer Music Journal/, 38(2):51-62, 2014, MIT Press.
+
+*Peer-reviewed Conference Papers and Workshop Contributions*
+
+:{/Content-Aware Collaborative Music Recommendation Using Pre-trained Neural Networks/ (to appear)
+\[[publications/LiangZE15-ccm.pdf PDF]\] \[[publications/LiangZE15-ccm-workshop.pdf workshop version]\] 
+\[[https://github.com/dawenl/content_wmf Code]\]
+}
+Dawen Liang, Minshu Zhan, and Daniel P. W. Ellis, /International Society for Music Information Retrieval/ (ISMIR), 2015
+
+:{/Landmarking Manifolds with Gaussian Processes/  
+\[[publications/LiangP15-manifoldGP.pdf PDF]\] \[[https://github.com/dawenl/manifold_landmarks Code]\]
+}
+Dawen Liang and John Paisley, /International Conference on Machine Learning/ (ICML), 2015.
+
+:{/librosa: Audio and Music Signal Analysis in Python/
+\[[publications/McFee15-librosa.pdf PDF]\] \[[https:github.com/bmcfee/librosa librosa@github]\] 
+}
+Brian McFee, Colin Raffel, Dawen Liang, Daniel P. W. Ellis, Matt McVicar, Eric Battenberg, and Oriol Nieto, /Proceedings of the 14th Python in Science Conference/ (SciPy), 2015.
+
+:{/Speech Dereverberation using a Learned Speech Model/
+\[[publications/LiangHM15-dereverb.pdf PDF]\]
+}
+Dawen Liang, Matthew D. Hoffman, and Gautham J. Mysore, /IEEE International Conference on Acoustics, Speech and Signal Processing/ (ICASSP), 2015.
+
+:{/Beta Process Non-negative Matrix Factorization with Stochastic Structured Mean-Field Variational Inference/ 
+\[[http://arxiv.org/abs/1411.1804 PDF]\] \[[https://github.com/dawenl/bp_nmf Code]\]
+}
+Dawen Liang and Matthew D. Hoffman, /NIPS Workshop on Advances in Variational Inference/, 2014.
+
+:{/Codebook-based Scalable Music Tagging with Poisson Matrix Factorization/ 
+\[[publications/LiangPE14-codebook.pdf PDF]\] \[[https://github.com/dawenl/stochastic_PMF Code]\]
+}
+Dawen Liang, John Paisley, and Daniel P. W. Ellis, /International Society for Music Information Retrieval/ (ISMIR), 2014.
+
+:{/mir_eval: A Transparent Implementation of Common MIR Metrics/  
+\[[publications/Raffel14-mireval.pdf PDF]\] 
+\[[https://github.com/craffel/mir_eval mir_eval@github]\]}
+Colin Raffel, Brian McFee, Eric J. Humphrey, Justin Salamon, Oriol Nieto, Dawen Liang, and Daniel P. W. Ellis, 
+/International Society for Music Information Retrieval/ (ISMIR), 2014.
+
+:{/Speech Decoloration based on the Product-of-Filters Model/ 
+\[[publications/LiangEHM14-decolor.pdf PDF]\]}
+Dawen Liang, Daniel P. W. Ellis, Matthew D. Hoffman, and Gautham J. Mysore, /IEEE International Conference on Acoustics, Speech and Signal Processing/ (ICASSP), 2014. 
+
+:{/A Generative Product-of-Filters Model of Audio/
+\[[http://arxiv.org/abs/1312.5857 PDF]\]
+\[[https://github.com/dawenl/pof Code]\]} 
+Dawen Liang, Matthew D. Hoffman, and Gautham J. Mysore, /International Conference on Learning Representations/ (ICLR), 2014. 
+
+:{/Beta Process Sparse Nonnegative Matrix Factorization for Music/  (*Best student paper award*)
+ \[[publications/LiangHE13-beta.pdf PDF]\] \[[https://github.com/dawenl/bp_nmf Code]\]}
+Dawen Liang, Matthew D. Hoffman, and Daniel P. W. Ellis, /International Society for Music Information Retrieval/ (ISMIR), 2013. 
+
+:{/Segmentation, Clustering, and Display in a Personal Audio Database for Musicians/ \[[publications/XiaLDH11-rehearsal.pdf PDF]\]}
+Guangyu Xia, Dawen Liang, Roger B. Dannenberg, and Mark J. Harvilla, /International Society for Music Information Retrieval Conference/ (ISMIR), 2011.
+
+:{/A Framework for Coordination and Synchronization of Media/ \[[publications/LiangXD11-hcmp.pdf PDF]\]} 
+Dawen Liang, Guangyu Xia, and Roger B. Dannenberg, /New Interfaces for Musical Expression/ (NIME), 2011.
+
+== Teaching
+- Teaching Assistant,
+  [http://www.columbia.edu/~jwp2128/Teaching/W4721/W4721Spring2015.html COMS W4721 Machine Learning for Data Science] 
+by [http://www.columbia.edu/~jwp2128/ Professor John Paisley], Columbia University, Spring 2015
+- Teaching Assistant,
+  [http://www.columbia.edu/~jwp2128/Teaching/E6892/E6892Spring2014.html EECS E6892 Bayesian Models for Machine Learning] 
+by [http://www.columbia.edu/~jwp2128/ Professor John Paisley], Columbia University, Spring 2014
+- Teaching Assistant, [http://www.ee.columbia.edu/~dpwe/e4810/ ELEN E4810 Digital Signal Processing] by [http://www.ee.columbia.edu/~dpwe/ Professor Dan
+Ellis], Columbia University, Fall 2012 and 2013
+- Teaching Assistant, [http://www.cs.cmu.edu/~music/cmsip/Home.html 15-323
+  Computer Music Systems and Information Processing] by [http://www.cs.cmu.edu/~rbd Professor Roger Dannenberg], Carnegie Mellon University, Spring 2012
+- Teaching Assistant, [http://www.cs.cmu.edu/~music/icm/ 15-322 Introduction to
+  Computer Music] by [http://www.cs.cmu.edu/~rbd Professor Roger Dannenberg], Carnegie Mellon University, Spring 2011
+
+== Miscellaneous
+Here are some notes regarding some topics I found interesting. 
+I wrote these just for fun (and I think they will be useful sometime in the future).
+Therefore, there might be mistakes/errors in these notes. 
+If you find any problem, please let me know.
+
+- [files/mle_biased.pdf A proof] that Maximum Likelihood Estimation (MLE) is
+  biased for variance estimator.
+- [files/mat_deriv.pdf A note] that shows some useful properties for matrix
+  derivative.
+- [files/em.pdf Some technical details] for the Expectation Maximization (EM)
+  algorithm.
+
+== Personal
+- Besides hacking and research, I am interested in art, especially music. I play piano and keyboard synthesizer. I participated in several bands during undergrad as keyboardist: a Pink Floyd tribute band named 'Outside the Wall' and an original progressive rock band which composed several original songs. 
+
+- My favorate band is [http://www.dreamtheater.net/ Dream Theater] and I am really
+sad about Mike Portnoy's
+[http://www.roadrunnerrecords.com/news/Mike-Portnoy-Announces-His-Departure-From-Dream-Theater-22063.aspx
+departure] in late 2010.
+
+- The states in US where I've visited, or at least had an airplane connection...
+{{<img src="http://chart.apis.google.com/chart?cht=t&chtm=usa&chs=440x220&chf=bg,s,336699&chco=d0d0d0,cc0000&chd=s:99999999999999999&chld=AZCAFLILINMIMNNVNJNYNCOHPAWAMDVAMO" width="440" height="220" ><br/>visited 17 states (34%)<br/><a href="http://douweosinga.com/projects/visited?region=usa">Create your own visited map of The United States</a>
+}}
+
+{{<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+	var sc_project=7398765; 
+	var sc_invisible=0; 
+	var sc_security="e9abc56e"; 
+</script>
+<script type="text/javascript"
+	src="http://www.statcounter.com/counter/counter.js"></script>
+<noscript><div class="statcounter"><a title="site stats"
+			href="http://statcounter.com/free-web-stats/"
+			target="_blank"><img class="statcounter"
+			src="http://c.statcounter.com/7398765/0/e9abc56e/0/"
+			alt="site stats"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->}}
