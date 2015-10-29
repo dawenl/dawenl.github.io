@@ -7,12 +7,11 @@ Email: {{<a href="http://safemail.justlikeed.net/" target="_blank"><img src="htt
 }} \n
 Github: [https://github.com/dawenl @dawenl]
 
-I am a third-year Ph.D. student in the [http://www.ee.columbia.edu/ Electrical
+I am a 4th-year Ph.D. student in the [http://www.ee.columbia.edu/ Electrical
 Engineering Department] at [http://www.columbia.edu/ Columbia University], 
 as part of the [http://labrosa.ee.columbia.edu LabROSA],
 working with [http://www.ee.columbia.edu/~dpwe/ Professor Dan
-Ellis]. I also work closely with [http://www.cs.columbia.edu/~blei Professor David Blei], 
-[http://www.columbia.edu/~jwp2128 Professor John Paisley], 
+Ellis] and [http://www.cs.columbia.edu/~blei/ Professor David Blei]. I also work closely with [http://www.columbia.edu/~jwp2128 Professor John Paisley], 
 [http://www.cs.princeton.edu/~mdhoffma Dr. Matt Hoffman] and 
 [https://ccrma.stanford.edu/~gautham/Site/Gautham_J._Mysore.html Dr. Gautham Mysore].
  My CV is available [files/cv.pdf here], as of July 2015.
@@ -58,6 +57,12 @@ Mentors: [http://www.cs.princeton.edu/~mdhoffma/ Matt Hoffman] and
 (deployed in production). 
 
 == Papers
+*Preprints*
+:{/Modeling User Exposure in Recommendation/
+\[[http://arxiv.org/pdf/1510.07025.pdf PDF]]}
+Dawen Liang, Laurent Charlin, James McInerney, David M. Blei.
+
+
 *Peer-reviewed Journal Articles*
 
 :{/Methods and Prospects for Human Computer Performance of Popular Music/}
