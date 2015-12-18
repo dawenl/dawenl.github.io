@@ -14,7 +14,7 @@ working with [http://www.ee.columbia.edu/~dpwe/ Professor Dan
 Ellis] and [http://www.cs.columbia.edu/~blei/ Professor David Blei]. I also work closely with [http://www.columbia.edu/~jwp2128 Professor John Paisley], 
 [http://www.cs.princeton.edu/~mdhoffma Dr. Matt Hoffman] and 
 [https://ccrma.stanford.edu/~gautham/Site/Gautham_J._Mysore.html Dr. Gautham Mysore].
- My CV is available [files/cv.pdf here], as of July 2015.
+ My CV is available [files/cv.pdf here], as of December 2015.
 Prior to that, I obtained my master's degree in
 [http://www.cs.cmu.edu/~music/mat/index.html Music and Technology program] at
 [http://www.cmu.edu/index.shtml Carnegie Mellon University], working with
@@ -25,9 +25,8 @@ Prior to that, I obtained my master's degree in
 
 == Education
 - Ph.D. Candidate, Electrical Engineering, [http://www.columbia.edu Columbia
-  University],
-  in progress 
-- M.S., Music and Technology, [http://www.cmu.edu Carnegie Mellon University],
+  University], June 2016 (expected)
+ - M.S., Music and Technology, [http://www.cmu.edu Carnegie Mellon University],
   May 2012
 - B.S., Computer Science,
   [http://www.fudan.edu.cn Fudan University], Jun 2010
@@ -57,11 +56,6 @@ Mentors: [http://www.cs.princeton.edu/~mdhoffma/ Matt Hoffman] and
 (deployed in production). 
 
 == Papers
-*Preprints*
-:{/Modeling User Exposure in Recommendation/
-\[[http://arxiv.org/pdf/1510.07025.pdf PDF]]}
-Dawen Liang, Laurent Charlin, James McInerney, David M. Blei.
-
 
 *Peer-reviewed Journal Articles*
 
@@ -73,11 +67,16 @@ Roger B. Dannenberg, Nicolas E. Gold, Dawen Liang, Guangyu Xia, /Computer Music 
 
 *Peer-reviewed Conference Papers and Workshop Contributions*
 
+:{/Modeling User Exposure in Recommendation/ (to appear)
+\[[http://arxiv.org/pdf/1510.07025.pdf PDF]]}
+Dawen Liang, Laurent Charlin, James McInerney, David M. Blei, /International Conference on World Wide Web/ (WWW), 2016.
+
+
 :{/Content-Aware Collaborative Music Recommendation Using Pre-trained Neural Networks/ (to appear)
 \[[publications/LiangZE15-ccm.pdf PDF]\] \[[publications/LiangZE15-ccm-workshop.pdf workshop version]\] 
 \[[https://github.com/dawenl/content_wmf Code]\]
 }
-Dawen Liang, Minshu Zhan, and Daniel P. W. Ellis, /International Society for Music Information Retrieval/ (ISMIR), 2015
+Dawen Liang, Minshu Zhan, and Daniel P. W. Ellis, /International Society for Music Information Retrieval/ (ISMIR), 2015.
 
 :{/Landmarking Manifolds with Gaussian Processes/  
 \[[publications/LiangP15-manifoldGP.pdf PDF]\] \[[https://github.com/dawenl/manifold_landmarks Code]\]
@@ -135,7 +134,7 @@ Dawen Liang, Guangyu Xia, and Roger B. Dannenberg, /New Interfaces for Musical E
 by [http://www.columbia.edu/~jwp2128/ Professor John Paisley], Columbia University, Spring 2015
 - Teaching Assistant,
   [http://www.columbia.edu/~jwp2128/Teaching/E6892/E6892Spring2014.html EECS E6892 Bayesian Models for Machine Learning] 
-by [http://www.columbia.edu/~jwp2128/ Professor John Paisley], Columbia University, Spring 2014
+by [http://www.columbia.edu/~jwp2128/ Professor John Paisley], Columbia University, Spring 2014, Fall 2015
 - Teaching Assistant, [http://www.ee.columbia.edu/~dpwe/e4810/ ELEN E4810 Digital Signal Processing] by [http://www.ee.columbia.edu/~dpwe/ Professor Dan
 Ellis], Columbia University, Fall 2012 and 2013
 - Teaching Assistant, [http://www.cs.cmu.edu/~music/cmsip/Home.html 15-323
