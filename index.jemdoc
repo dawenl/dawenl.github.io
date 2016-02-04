@@ -67,8 +67,9 @@ Roger B. Dannenberg, Nicolas E. Gold, Dawen Liang, Guangyu Xia, /Computer Music 
 
 *Peer-reviewed Conference Papers and Workshop Contributions*
 
-:{/Modeling User Exposure in Recommendation/ (to appear)
-\[[http://arxiv.org/pdf/1510.07025.pdf PDF]]}
+:{/Modeling User Exposure in Recommendation/
+\[[publications/LiangCMB16-expomf.pdf PDF]\]
+\[[https://github.com/dawenl/expo-mf Code]\]}
 Dawen Liang, Laurent Charlin, James McInerney, David M. Blei, /International Conference on World Wide Web/ (WWW), 2016.
 
 
