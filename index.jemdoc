@@ -63,6 +63,10 @@ Roger B. Dannenberg, Nicolas E. Gold, Dawen Liang, Guangyu Xia, /Computer Music 
 
 *Peer-reviewed Conference Papers and Workshop Contributions*
 
+:{/Causal Inference for Recommendation/
+\[[publications/LiangCB16-causalrec.pdf PDF]\]}
+Dawen Liang, Laurent Charlin, David M. Blei, /UAI Workshop on Causation: Foundation to Application/, 2016.
+
 :{/Factorization Meets the Item Embedding: Regularizing Matrix Factorization with Item Co-occurrence/
 \[[publications/LiangACB16-cofactor.pdf PDF]\]
 \[[https://github.com/dawenl/cofactor Code]\]}
