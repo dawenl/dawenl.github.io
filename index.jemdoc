@@ -53,6 +53,12 @@ Mentors: [http://www.cs.princeton.edu/~mdhoffma/ Matt Hoffman] and
 
 == Papers
 
+*Pre-prints*
+:{/On the challenges of learning with inference networks on sparse, high-dimensional data/
+\[[https://arxiv.org/abs/1710.06085 Arxiv]\]
+\[[https://github.com/rahulk90/vae_sparse Code]\]}
+Rahul G. Krishnan, Dawen Liang, Matthew D. Hoffman, 2017
+
 *Peer-reviewed Journal Articles*
 
 :{/Methods and Prospects for Human Computer Performance of Popular Music/}
