@@ -6,12 +6,12 @@ Email: {{<a href="http://safemail.justlikeed.net/" target="_blank"><img src="htt
 }} \n
 Github: [https://github.com/dawenl @dawenl]
 
-I am a data scientist at [https://www.netflix.com/ Netflix]. I completed my Ph.D. in the [http://www.ee.columbia.edu/ Electrical
+I am a senior research scientist at [https://www.netflix.com/ Netflix]. I completed my Ph.D. in the [http://www.ee.columbia.edu/ Electrical
 Engineering Department] at [http://www.columbia.edu/ Columbia University], 
 as part of the [http://labrosa.ee.columbia.edu LabROSA],
 working with [http://www.ee.columbia.edu/~dpwe/ Professor Dan
 Ellis] and [http://www.cs.columbia.edu/~blei/ Professor David Blei].
- My CV is available [files/cv.pdf here], as of July 2017.
+ My CV is available [files/cv.pdf here], as of Jan 2018.
 Prior to that, I completed my master's degree in
 [http://www.cs.cmu.edu/~music/mat/index.html Music and Technology program] at
 [http://www.cmu.edu/index.shtml Carnegie Mellon University], working with
@@ -33,7 +33,7 @@ Prior to that, I completed my master's degree in
 - Probabilistic latent variables models and applications to recommender systems
 
 == Experience
-- Data Scientist, Science & Algorithms, Netflix, July 2016 -- present
+- Research Scientist, Discovery Science & Algorithms, Netflix, July 2016 -- present
 
 - Recommendation Systems Scientist Intern, Playlist Team, Pandora, May 2015 --
   Aug 2015
@@ -53,12 +53,6 @@ Mentors: [http://www.cs.princeton.edu/~mdhoffma/ Matt Hoffman] and
 
 == Papers
 
-*Pre-prints*
-:{/On the challenges of learning with inference networks on sparse, high-dimensional data/
-\[[https://arxiv.org/abs/1710.06085 Arxiv]\]
-\[[https://github.com/rahulk90/vae_sparse Code]\]}
-Rahul G. Krishnan, Dawen Liang, Matthew D. Hoffman, 2017
-
 *Peer-reviewed Journal Articles*
 
 :{/Methods and Prospects for Human Computer Performance of Popular Music/}
@@ -68,6 +62,14 @@ Roger B. Dannenberg, Nicolas E. Gold, Dawen Liang, Guangyu Xia, /Computer Music 
 Roger B. Dannenberg, Nicolas E. Gold, Dawen Liang, Guangyu Xia, /Computer Music Journal/, 38(2):51-62, 2014, MIT Press.
 
 *Peer-reviewed Conference Papers and Workshop Contributions*
+
+:{/Variational Autoencoders for Collaborative Filtering/}
+Dawen Liang, Rahul G. Krishnan, Matthew D. Hoffman, Tony Jebara, /The Web Conference/ (WWW), 2018 (to appear).
+
+:{/On the challenges of learning with inference networks on sparse, high-dimensional data/
+\[[https://arxiv.org/abs/1710.06085 Arxiv]\]
+\[[https://github.com/rahulk90/vae_sparse Code]\]}
+Rahul G. Krishnan, Dawen Liang, Matthew D. Hoffman, /International Conference on Artificial Intelligence and Statistics/ (AISTATS), 2018 (to appear).
 
 :{/Causal Inference for Recommendation/
 \[[publications/LiangCB16-causalrec.pdf PDF]\]}
