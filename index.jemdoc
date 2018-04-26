@@ -67,12 +67,12 @@ Roger B. Dannenberg, Nicolas E. Gold, Dawen Liang, Guangyu Xia, /Computer Music 
 \[[publications/LiangKHJ18-vae_cf.pdf PDF]\]
 \[[https://arxiv.org/abs/1802.05814 Arxiv]\]
 \[[https://github.com/dawenl/vae_cf Code]\]}
-Dawen Liang, Rahul G. Krishnan, Matthew D. Hoffman, Tony Jebara, /The Web Conference/ (WWW), 2018 (to appear).
+Dawen Liang, Rahul G. Krishnan, Matthew D. Hoffman, Tony Jebara, /The Web Conference/ (WWW), 2018.
 
 :{/On the challenges of learning with inference networks on sparse, high-dimensional data/
 \[[https://arxiv.org/abs/1710.06085 Arxiv]\]
 \[[https://github.com/rahulk90/vae_sparse Code]\]}
-Rahul G. Krishnan, Dawen Liang, Matthew D. Hoffman, /International Conference on Artificial Intelligence and Statistics/ (AISTATS), 2018 (to appear).
+Rahul G. Krishnan, Dawen Liang, Matthew D. Hoffman, /International Conference on Artificial Intelligence and Statistics/ (AISTATS), 2018.
 
 :{/Causal Inference for Recommendation/
 \[[publications/LiangCB16-causalrec.pdf PDF]\]}
