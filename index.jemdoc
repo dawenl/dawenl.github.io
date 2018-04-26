@@ -63,7 +63,10 @@ Roger B. Dannenberg, Nicolas E. Gold, Dawen Liang, Guangyu Xia, /Computer Music 
 
 *Peer-reviewed Conference Papers and Workshop Contributions*
 
-:{/Variational Autoencoders for Collaborative Filtering/}
+:{/Variational Autoencoders for Collaborative Filtering/
+\[[publications/LiangKHJ18-vae_cf.pdf PDF]\]
+\[[https://arxiv.org/abs/1802.05814 Arxiv]\]
+\[[https://github.com/dawenl/vae_cf Code]\]}
 Dawen Liang, Rahul G. Krishnan, Matthew D. Hoffman, Tony Jebara, /The Web Conference/ (WWW), 2018 (to appear).
 
 :{/On the challenges of learning with inference networks on sparse, high-dimensional data/
