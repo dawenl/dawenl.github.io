@@ -53,6 +53,13 @@ Mentors: [http://www.cs.princeton.edu/~mdhoffma/ Matt Hoffman] and
 
 == Papers
 
+*Preprints*
+
+:{/The Deconfounded Recommender: A Causal Inference Approach to Recommendation/
+\[[https://arxiv.org/abs/1808.06581 Arxiv]\]
+}
+Yixin Wang, Dawen Liang, Laurent Charlin, and David M. Blei, 2018.  
+
 *Peer-reviewed Journal Articles*
 
 :{/Methods and Prospects for Human Computer Performance of Popular Music/}
@@ -62,6 +69,11 @@ Roger B. Dannenberg, Nicolas E. Gold, Dawen Liang, Guangyu Xia, /Computer Music 
 Roger B. Dannenberg, Nicolas E. Gold, Dawen Liang, Guangyu Xia, /Computer Music Journal/, 38(2):51-62, 2014, MIT Press.
 
 *Peer-reviewed Conference Papers and Workshop Contributions*
+
+:{/Correlated Variational Auto-Encoders/ 
+\[[publications/TangLJ18-cvae.pdf PDF]\] 
+}
+Da Tang, Dawen Liang, and Tony Jebara, /NeurIPS Workshop on Bayesian Deep Learning/, 2018.
 
 :{/Variational Autoencoders for Collaborative Filtering/
 \[[publications/LiangKHJ18-vae_cf.pdf PDF]\]
@@ -87,7 +99,6 @@ Dawen Liang, Jaan Altossar, Laurent Charlin, David M. Blei, /ACM Conference on R
 \[[publications/LiangCMB16-expomf.pdf PDF]\]
 \[[https://github.com/dawenl/expo-mf Code]\]}
 Dawen Liang, Laurent Charlin, James McInerney, David M. Blei, /International Conference on World Wide Web/ (WWW), 2016.
-
 
 :{/Content-Aware Collaborative Music Recommendation Using Pre-trained Neural Networks/
 \[[publications/LiangZE15-ccm.pdf PDF]\]
