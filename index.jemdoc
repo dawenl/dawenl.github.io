@@ -11,7 +11,7 @@ Engineering Department] at [http://www.columbia.edu/ Columbia University],
 as part of the [http://labrosa.ee.columbia.edu LabROSA],
 working with [http://www.ee.columbia.edu/~dpwe/ Professor Dan
 Ellis] and [http://www.cs.columbia.edu/~blei/ Professor David Blei].
- My CV is available [files/cv.pdf here], as of Jan 2018.
+ My CV is available [files/cv.pdf here], as of Jun 2019.
 Prior to that, I completed my master's degree in
 [http://www.cs.cmu.edu/~music/mat/index.html Music and Technology program] at
 [http://www.cmu.edu/index.shtml Carnegie Mellon University], working with
@@ -72,9 +72,10 @@ Roger B. Dannenberg, Nicolas E. Gold, Dawen Liang, Guangyu Xia, /Computer Music 
 *Peer-reviewed Conference Papers and Workshop Contributions*
 
 :{/Correlated Variational Auto-Encoders/ 
-\[[publications/TangLJ18-cvae.pdf PDF]\] 
+\[[https://arxiv.org/abs/1905.05335 Arxiv]\]
+\[[https://github.com/datang1992/Correlated-VAEs Code]\]
 }
-Da Tang, Dawen Liang, and Tony Jebara, /NeurIPS Workshop on Bayesian Deep Learning/, 2018.
+Da Tang, Dawen Liang, Tony Jebara, Nicholas Ruozzi, /International Conference on Machine Learning/ (ICML), 2019.
 
 :{/Variational Autoencoders for Collaborative Filtering/
 \[[publications/LiangKHJ18-vae_cf.pdf PDF]\]
