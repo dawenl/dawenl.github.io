@@ -56,8 +56,13 @@ Mentors: [http://www.cs.princeton.edu/~mdhoffma/ Matt Hoffman] and
 
 *Preprints*
 
+:{/Learning Correlated Latent Representations with Adaptive Priors/
+\[[https://arxiv.org/abs/1906.06419 arXiv]\]
+}
+Da Tang, Dawen Liang, Nicholas Ruozzi, and Tony Jebara, 2019.
+
 :{/The Deconfounded Recommender: A Causal Inference Approach to Recommendation/
-\[[https://arxiv.org/abs/1808.06581 Arxiv]\]
+\[[https://arxiv.org/abs/1808.06581 arXiv]\]
 }
 Yixin Wang, Dawen Liang, Laurent Charlin, and David M. Blei, 2018.  
 
@@ -72,19 +77,19 @@ Roger B. Dannenberg, Nicolas E. Gold, Dawen Liang, Guangyu Xia, /Computer Music 
 *Peer-reviewed Conference Papers and Workshop Contributions*
 
 :{/Correlated Variational Auto-Encoders/ 
-\[[https://arxiv.org/abs/1905.05335 Arxiv]\]
+\[[https://arxiv.org/abs/1905.05335 arXiv]\]
 \[[https://github.com/datang1992/Correlated-VAEs Code]\]
 }
 Da Tang, Dawen Liang, Tony Jebara, Nicholas Ruozzi, /International Conference on Machine Learning/ (ICML), 2019.
 
 :{/Variational Autoencoders for Collaborative Filtering/
 \[[publications/LiangKHJ18-vae_cf.pdf PDF]\]
-\[[https://arxiv.org/abs/1802.05814 Arxiv]\]
+\[[https://arxiv.org/abs/1802.05814 arXiv]\]
 \[[https://github.com/dawenl/vae_cf Code]\]}
 Dawen Liang, Rahul G. Krishnan, Matthew D. Hoffman, Tony Jebara, /The Web Conference/ (WWW), 2018.
 
 :{/On the challenges of learning with inference networks on sparse, high-dimensional data/
-\[[https://arxiv.org/abs/1710.06085 Arxiv]\]
+\[[https://arxiv.org/abs/1710.06085 arXiv]\]
 \[[https://github.com/rahulk90/vae_sparse Code]\]}
 Rahul G. Krishnan, Dawen Liang, Matthew D. Hoffman, /International Conference on Artificial Intelligence and Statistics/ (AISTATS), 2018.
 
