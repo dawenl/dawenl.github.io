@@ -4,14 +4,15 @@
 {}{img_left}{files/dawen.jpg}{Dawen Liang}{124}{140} \n
 Email: {{<a href="http://safemail.justlikeed.net/" target="_blank"><img src="http://safemail.justlikeed.net/e/1018064554cac4cdad65211751e11327.png" border="0" align="absbottom" title="Email image created with safemail.justlikeed.net"></a>
 }} \n
-Github: [https://github.com/dawenl @dawenl]
+Github: [https://github.com/dawenl @dawenl] \n
+[https://scholar.google.com/citations?user=4c1ZNm4AAAAJ&hl=en Google Scholar]
 
 I am a senior research scientist at [https://www.netflix.com/ Netflix]. I completed my Ph.D. in the [http://www.ee.columbia.edu/ Electrical
 Engineering Department] at [http://www.columbia.edu/ Columbia University], 
 as part of the [http://labrosa.ee.columbia.edu LabROSA],
 working with [http://www.ee.columbia.edu/~dpwe/ Professor Dan
 Ellis] and [http://www.cs.columbia.edu/~blei/ Professor David Blei].
- My CV is available [files/cv.pdf here], as of Jun 2019.
+ My CV is available [files/cv.pdf here], as of Sep 2020.
 Prior to that, I completed my master's degree in
 [http://www.cs.cmu.edu/~music/mat/index.html Music and Technology program] at
 [http://www.cmu.edu/index.shtml Carnegie Mellon University], working with
@@ -75,6 +76,12 @@ Roger B. Dannenberg, Nicolas E. Gold, Dawen Liang, Guangyu Xia, /Computer Music 
 Roger B. Dannenberg, Nicolas E. Gold, Dawen Liang, Guangyu Xia, /Computer Music Journal/, 38(2):51-62, 2014, MIT Press.
 
 *Peer-reviewed Conference Papers and Workshop Contributions*
+
+:{/Causal Inference for Recommender Systems/ 
+\[[publications/WangLCB20-deconfounder.pdf PDF]\]
+\[[https://github.com/yixinwang/causal-recsys-public Code]\]
+}
+Yixin Wang, Dawen Liang, Laurent Charlin, and David M. Blei, /ACM Conference on Recommender Systems/ (RecSys), 2020.
 
 :{/Correlated Variational Auto-Encoders/ 
 \[[https://arxiv.org/abs/1905.05335 arXiv]\]
