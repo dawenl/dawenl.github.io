@@ -4,9 +4,8 @@
 {}{img_left}{files/dawen.jpg}{Dawen Liang}{124}{140} \n
 Email: {{<img src="files/email.png" alt="email">}} \n
 Github: [https://github.com/dawenl @dawenl] \n
-[https://scholar.google.com/citations?user=4c1ZNm4AAAAJ&hl=en Google Scholar]
 
-I am a senior research scientist at [https://www.netflix.com/ Netflix]. I completed my Ph.D. in the [http://www.ee.columbia.edu/ Electrical
+I am a research scientist at [https://www.netflix.com/ Netflix]. I completed my Ph.D. in the [http://www.ee.columbia.edu/ Electrical
 Engineering Department] at [http://www.columbia.edu/ Columbia University], 
 as part of the [http://labrosa.ee.columbia.edu LabROSA],
 working with [http://www.ee.columbia.edu/~dpwe/ Professor Dan
@@ -29,12 +28,11 @@ Prior to that, I completed my master's degree in
   [http://www.fudan.edu.cn Fudan University], Jun 2010
 
 == Research
-- Bayesian modeling and (approximate) inference 
-- Probabilistic latent variables models and applications to recommender systems
-  and causal inference. 
+- Probabilistic latent variables models and applications to recommender systems. 
+- Bandit, reinforcement learning, and causal inference. 
 
 == Experience
-- Research Scientist, Discovery Science & Algorithms, Netflix, July 2016 -- present
+- Research Scientist, Product Machine Learning Research, Netflix, July 2016 -- present
 
 - Recommendation Systems Scientist Intern, Playlist Team, Pandora, May 2015 --
   Aug 2015
@@ -47,14 +45,17 @@ Erik Schmidt] and [http://www.cs.brandeis.edu/~kekib/ Keki Burjorjee].
 Mentors: [http://www.cs.princeton.edu/~mdhoffma/ Matt Hoffman] and 
 [https://ccrma.stanford.edu/~gautham/Site/Gautham_J._Mysore.html Gautham Mysore].
 
-- Software Engineer Development Intern, Digital Delivery Team, Amazon.com, May
-  2011 -- Aug 2011
--- Design and implement an efficient scheduling algorithm for periodicals delivery
-(deployed in production). 
 
 == Papers
 
+For the most up-to-date information please see my [https://scholar.google.com/citations?user=4c1ZNm4AAAAJ&hl=en Google Scholar] page.
+
 *Preprints*
+
+:{/Local Policy Improvement for Recommender Systems/
+\[[https://arxiv.org/abs/2212.11431 arXiv]\]
+}
+Dawen Liang and Nikos Vlassis, 2022.
 
 :{/Learning Correlated Latent Representations with Adaptive Priors/
 \[[https://arxiv.org/abs/1906.06419 arXiv]\]
@@ -68,6 +69,11 @@ Yixin Wang, Dawen Liang, Laurent Charlin, and David M. Blei, 2018.
 
 *Peer-reviewed Journal Articles*
 
+:{/Deep Learning for Recommender Systems: A Netflix Case Study/
+\[[publications/Steck21-netflix.pdf PDF]\]
+}
+Harald Steck, Linas Baltrunas, Ehtsham Elahi, Dawen Liang, Yves Raimond, Justin Basilico, /AI Magazine/, 42(3), 7-18, 2021.
+
 :{/Methods and Prospects for Human Computer Performance of Popular Music/}
 Roger B. Dannenberg, Nicolas E. Gold, Dawen Liang, Guangyu Xia, /Computer Music Journal/, 38(2):36-50, 2014, MIT Press.
 
@@ -75,6 +81,13 @@ Roger B. Dannenberg, Nicolas E. Gold, Dawen Liang, Guangyu Xia, /Computer Music 
 Roger B. Dannenberg, Nicolas E. Gold, Dawen Liang, Guangyu Xia, /Computer Music Journal/, 38(2):51-62, 2014, MIT Press.
 
 *Peer-reviewed Conference Papers and Workshop Contributions*
+
+:{/Negative Interactions for Improved Collaborative Filtering: Don’t go Deeper, go Higher/ 
+\[[publications/SteckL21-higher.pdf PDF]\]
+\[[https://github.com/hasteck/Higher_RecSys_2021 Code]\]
+ (*Best paper honorable mention*)
+}
+Harald Steck and Dawen Liang, /ACM Conference on Recommender Systems/ (RecSys), 2021.
 
 :{/Causal Inference for Recommender Systems/ 
 \[[publications/WangLCB20-deconfounder.pdf PDF]\]
@@ -159,8 +172,10 @@ Dawen Liang, Daniel P. W. Ellis, Matthew D. Hoffman, and Gautham J. Mysore, /IEE
 \[[https://github.com/dawenl/pof Code]\]} 
 Dawen Liang, Matthew D. Hoffman, and Gautham J. Mysore, /International Conference on Learning Representations/ (ICLR), 2014. 
 
-:{/Beta Process Sparse Nonnegative Matrix Factorization for Music/  (*Best student paper award*)
- \[[publications/LiangHE13-beta.pdf PDF]\] \[[https://github.com/dawenl/bp_nmf Code]\]}
+:{/Beta Process Sparse Nonnegative Matrix Factorization for Music/ 
+ \[[publications/LiangHE13-beta.pdf PDF]\] \[[https://github.com/dawenl/bp_nmf Code]\]
+ (*Best student paper award*)
+}
 Dawen Liang, Matthew D. Hoffman, and Daniel P. W. Ellis, /International Society for Music Information Retrieval/ (ISMIR), 2013. 
 
 :{/Segmentation, Clustering, and Display in a Personal Audio Database for Musicians/ \[[publications/XiaLDH11-rehearsal.pdf PDF]\]}
@@ -175,20 +190,6 @@ Dawen Liang, Guangyu Xia, and Roger B. Dannenberg, /New Interfaces for Musical E
 Dawen Liang, Department of Electrical Engineering, Columbia University, 2016 (DOI: [http://dx.doi.org/10.7916/D8TH8MZP 10.7916/D8TH8MZP])
 
 
-== Teaching
-- Teaching Assistant,
-  [http://www.columbia.edu/~jwp2128/Teaching/W4721/W4721Spring2015.html COMS W4721 Machine Learning for Data Science] 
-by [http://www.columbia.edu/~jwp2128/ Professor John Paisley], Columbia University, Spring 2015
-- Teaching Assistant,
-  [http://www.columbia.edu/~jwp2128/Teaching/E6892/E6892Spring2014.html EECS E6892 Bayesian Models for Machine Learning] 
-by [http://www.columbia.edu/~jwp2128/ Professor John Paisley], Columbia University, Spring 2014, Fall 2015
-- Teaching Assistant, [http://www.ee.columbia.edu/~dpwe/e4810/ ELEN E4810 Digital Signal Processing] by [http://www.ee.columbia.edu/~dpwe/ Professor Dan
-Ellis], Columbia University, Fall 2012 and 2013
-- Teaching Assistant, [http://www.cs.cmu.edu/~music/cmsip/Home.html 15-323
-  Computer Music Systems and Information Processing] by [http://www.cs.cmu.edu/~rbd Professor Roger Dannenberg], Carnegie Mellon University, Spring 2012
-- Teaching Assistant, [http://www.cs.cmu.edu/~music/icm/ 15-322 Introduction to
-  Computer Music] by [http://www.cs.cmu.edu/~rbd Professor Roger Dannenberg], Carnegie Mellon University, Spring 2011
-
 == Miscellaneous
 Here are some notes regarding some topics I found interesting. 
 I wrote these just for fun (and I think they will be useful sometime in the future).
@@ -202,29 +203,3 @@ If you find any problem, please let me know.
 - [files/em.pdf Some technical details] for the Expectation Maximization (EM)
   algorithm.
 
-== Personal
-- Besides hacking and research, I am interested in art, especially music. I play piano and keyboard synthesizer. I participated in several bands during undergrad as keyboardist: a Pink Floyd tribute band named 'Outside the Wall' and an original progressive rock band which composed several original songs. 
-
-- My favorate band {{<del>}}is{{</del>}} was [http://www.dreamtheater.net/ Dream Theater] and I am really
-sad about Mike Portnoy's
-[http://www.roadrunnerrecords.com/news/Mike-Portnoy-Announces-His-Departure-From-Dream-Theater-22063.aspx
-departure] in late 2010.
-
-- The states in US where I've visited, or at least had an airplane connection...
-{{<img src="http://chart.apis.google.com/chart?cht=t&chtm=usa&chs=440x220&chf=bg,s,336699&chco=d0d0d0,cc0000&chd=s:99999999999999999&chld=AZCAFLILINMIMNNVNJNYNCOHPAWAMDVAMO" width="440" height="220" ><br/>visited 17 states (34%)<br/><a href="http://douweosinga.com/projects/visited?region=usa">Create your own visited map of The United States</a>
-}}
-
-{{<!-- Start of StatCounter Code for Default Guide -->
-<script type="text/javascript">
-	var sc_project=7398765; 
-	var sc_invisible=0; 
-	var sc_security="e9abc56e"; 
-</script>
-<script type="text/javascript"
-	src="http://www.statcounter.com/counter/counter.js"></script>
-<noscript><div class="statcounter"><a title="site stats"
-			href="http://statcounter.com/free-web-stats/"
-			target="_blank"><img class="statcounter"
-			src="http://c.statcounter.com/7398765/0/e9abc56e/0/"
-			alt="site stats"></a></div></noscript>
-<!-- End of StatCounter Code for Default Guide -->}}
