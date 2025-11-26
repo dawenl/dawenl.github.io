@@ -2,49 +2,20 @@
 
 ~~~
 {}{img_left}{files/dawen.jpg}{Dawen Liang}{124}{140} \n
-Email: {{<img src="files/email.png" alt="email">}} \n
-Github: [https://github.com/dawenl @dawenl] \n
+Email: {{<img src="files/email.png" alt="email" width="6%">}} \n
 
-I am a research scientist at [https://www.netflix.com/ Netflix]. I completed my Ph.D. in the [http://www.ee.columbia.edu/ Electrical
+I am a member of technical staff at [https://x.ai/ xAI]. Before that, I was a research scientist at [https://www.netflix.com/ Netflix] and worked on personalization, policy learning, and LLM post-training. I completed my Ph.D. in the [http://www.ee.columbia.edu/ Electrical
 Engineering Department] at [http://www.columbia.edu/ Columbia University], 
 as part of the [http://labrosa.ee.columbia.edu LabROSA],
 working with [http://www.ee.columbia.edu/~dpwe/ Professor Dan
 Ellis] and [http://www.cs.columbia.edu/~blei/ Professor David Blei].
- My CV is available [files/cv.pdf here], as of Sep 2020.
 Prior to that, I completed my master's degree in
 [http://www.cs.cmu.edu/~music/mat/index.html Music and Technology program] at
 [http://www.cmu.edu/index.shtml Carnegie Mellon University], working with
 [http://www.cs.cmu.edu/~rbd Professor Roger Dannenberg] in the
 [http://www.cs.cmu.edu School of Computer Science], where I was part of the
-[http://www.cs.cmu.edu/~music/ Computer Music Group]. I received my bachelor's degree in Computer Science at [http://www.fudan.edu.cn/en/ Fudan University]. 
+[http://www.cs.cmu.edu/~music/ Computer Music Group]. 
 ~~~
-
-== Education
-- Ph.D., Electrical Engineering, [http://www.columbia.edu Columbia
-  University], June 2016
- - M.S., Music and Technology, [http://www.cmu.edu Carnegie Mellon University],
-  May 2012
-- B.S., Computer Science,
-  [http://www.fudan.edu.cn Fudan University], Jun 2010
-
-== Research
-- Probabilistic latent variables models and applications to recommender systems. 
-- Bandit, reinforcement learning, and causal inference. 
-
-== Experience
-- Research Scientist, Product Machine Learning Research, Netflix, July 2016 -- present
-
-- Recommendation Systems Scientist Intern, Playlist Team, Pandora, May 2015 --
-  Aug 2015
--- Investigate hybrid approaches to collaborative filtering. Mentors: [http://music.ece.drexel.edu/people/eschmidt 
-Erik Schmidt] and [http://www.cs.brandeis.edu/~kekib/ Keki Burjorjee].
-
-- Research Intern, Adobe Creative Technology Laboratory, Adobe Inc., May 2013 --
-  Aug 2013, May 2014 -- Aug 2014 
--- Bayesian hierarchical model of audio. 
-Mentors: [http://www.cs.princeton.edu/~mdhoffma/ Matt Hoffman] and 
-[https://ccrma.stanford.edu/~gautham/Site/Gautham_J._Mysore.html Gautham Mysore].
-
 
 == Papers
 
@@ -52,10 +23,10 @@ For the most up-to-date information please see my [https://scholar.google.com/ci
 
 
 == Miscellaneous
-Here are some notes regarding some topics I found interesting. 
-I wrote these just for fun (and I think they will be useful sometime in the future).
+Here are some (very old) notes regarding some topics I found interesting. 
+I wrote these just for fun (and I hope they can be useful to someone in the future).
 Therefore, there might be mistakes/errors in these notes. 
-If you find any problem, please let me know.
+If you find any problems, please let me know.
 
 - [files/mle_biased.pdf A proof] that Maximum Likelihood Estimation (MLE) is
   biased for variance estimator.
