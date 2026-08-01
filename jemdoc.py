@@ -27,7 +27,7 @@ import os
 import re
 import time
 import io
-from subprocess import *
+import subprocess
 import tempfile
 
 def info():
@@ -43,24 +43,29 @@ def info():
   print(message)
 
 def testeqsupport():
+  messages = []
   supported = True
-  msg = ''
-  p = Popen('latex --version', shell=True, stdout=PIPE, stderr=PIPE)
-  rc = p.wait()
-  if rc != 0:
-    msg += '  latex: not found.\n'
-    supported = False
-  else:
-    msg += '  latex: ' + p.stdout.readlines()[0].rstrip() + '.\n'
-  p = Popen('dvipng --version', shell=True, stdout=PIPE, stderr=PIPE)
-  rc = p.wait()
-  if rc != 0:
-    msg += '  dvipng: not found.\n'
-    supported = False
-  else:
-    msg += '  dvipng: ' + p.stdout.readlines()[0].rstrip() + '.\n'
+  for program in ('latex', 'dvipng'):
+    try:
+      result = subprocess.run(
+          [program, '--version'],
+          stdout=subprocess.PIPE,
+          stderr=subprocess.PIPE,
+          text=True,
+          check=False)
+    except OSError:
+      result = None
 
-  return (supported, msg[:-1])
+    if result is None or result.returncode != 0:
+      messages.append('  %s: not found.' % program)
+      supported = False
+      continue
+
+    version_output = (result.stdout or result.stderr).splitlines()
+    version = version_output[0] if version_output else 'version unavailable'
+    messages.append('  %s: %s.' % (program, version.rstrip('.')))
+
+  return (supported, '\n'.join(messages))
 
 class controlstruct(object):
   def __init__(self, infile, outfile=None, conf=None, inname=None, eqs=True,
@@ -119,7 +124,7 @@ def showhelp():
 
     jemdoc --version
 
-  See http://jemdoc.jaboc.net/ for many more details."""
+  See https://jemdoc.jaboc.net/ for many more details."""
   b = ''
   for l in a.splitlines(True):
     if l.startswith(' '*4):
@@ -131,15 +136,16 @@ def showhelp():
 
 def standardconf():
   a = """[firstbit]
-  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-    "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-  <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+  <!doctype html>
+  <html lang="en">
   <head>
-  <meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
-  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="generator" content="jemdoc, see https://jemdoc.jaboc.net/" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   [defaultcss]
-  <link rel="stylesheet" href="jemdoc.css" type="text/css" />
+  <link rel="stylesheet" href="jemdoc.css" />
+  <link rel="icon" href="files/favicon.png" type="image/png" />
 
   [windowtitle]
   # used in header for window title.
@@ -193,10 +199,10 @@ def standardconf():
   <div class="menu-item"><a href="|1">|2</a></div>
 
   [specificcss]
-  <link rel="stylesheet" href="|" type="text/css" />
+  <link rel="stylesheet" href="|" />
 
   [specificjs]
-  <script src="|.js" type="text/javascript"></script>
+  <script src="|.js"></script>
 
   [currentmenuitem]
   <div class="menu-item"><a href="|1" class="current">|2</a></div>
@@ -252,7 +258,7 @@ def standardconf():
   </div>
 
   [lastupdated]
-  Page generated |, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+  Page generated |, by <a href="https://jemdoc.jaboc.net/">jemdoc</a>.
 
   [sourcelink]
   (<a href="|">source</a>)
@@ -405,9 +411,8 @@ def doincludes(f, l):
   ir = 'includeraw{'
   i = 'include{'
   if l.startswith(ir):
-    nf = open(l[len(ir):-2], 'rb')
-    f.outf.write(nf.read())
-    nf.close()
+    with open(l[len(ir):-2], 'rb') as nf:
+      f.outf.write(nf.read().decode(encoding='utf-8'))
   elif l.startswith(i):
     f.pushfile(l[len(i):-2])
   else:
@@ -937,11 +942,11 @@ def geneq(f, eq, dpi, wl, outname):
   eqdepths = {}
   if f.eqcache:
     try:
-      dc = open(os.path.join(f.eqdir, '.eqdepthcache'), 'rb')
-      for l in dc:
-        a = l.split()
-        eqdepths[a[0]] = int(a[1])
-      dc.close()
+      with open(os.path.join(f.eqdir, '.eqdepthcache'),
+                'r', encoding='utf-8') as dc:
+        for l in dc:
+          a = l.split()
+          eqdepths[a[0]] = int(a[1])
 
       if os.path.exists(eqname) and eqname in eqdepths:
         return (eqdepths[eqname], eqname)
@@ -952,7 +957,7 @@ def geneq(f, eq, dpi, wl, outname):
   tempdir = tempfile.gettempdir()
   fd, texfile = tempfile.mkstemp('.tex', '', tempdir, True)
   basefile = texfile[:-4]
-  g = os.fdopen(fd, 'wb')
+  g = os.fdopen(fd, 'w', encoding='utf-8')
 
   preamble = '\documentclass{article}\n'
   for p in f.eqpackages:
@@ -977,25 +982,40 @@ def geneq(f, eq, dpi, wl, outname):
   exts = ['.tex', '.aux', '.dvi', '.log']
   try:
     # Generate the DVI file
-    latexcmd = 'latex -file-line-error-style -interaction=nonstopmode ' + \
-         '-output-directory %s %s' % (tempdir, texfile)
-    p = Popen(latexcmd, shell=True, stdout=PIPE)
-    rc = p.wait()
-    if rc != 0:
-      for l in p.stdout.readlines():
+    latexcmd = [
+        'latex', '-file-line-error-style', '-interaction=nonstopmode',
+        '-output-directory', tempdir, texfile]
+    result = subprocess.run(
+        latexcmd,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.STDOUT,
+        text=True,
+        check=False)
+    if result.returncode != 0:
+      for l in result.stdout.splitlines():
         print('  ' + l.rstrip())
       exts.remove('.tex')
       raise Exception('latex error')
 
     dvifile = basefile + '.dvi'
-    dvicmd = 'dvipng --freetype0 -Q 9 -z 3 --depth -q -T tight -D %i -bg Transparent -o %s %s' % (dpi, eqname, dvifile)
+    dvicmd = [
+        'dvipng', '--freetype0', '-Q', '9', '-z', '3', '--depth', '-q',
+        '-T', 'tight', '-D', str(dpi), '-bg', 'Transparent', '-o', eqname,
+        dvifile]
     # discard warnings, as well.
-    p = Popen(dvicmd, shell=True, stdout=PIPE, stderr=PIPE)
-    rc = p.wait()
-    if rc != 0:
-      print(p.stderr.readlines())
+    result = subprocess.run(
+        dvicmd,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        text=True,
+        check=False)
+    if result.returncode != 0:
+      print(result.stderr)
       raise Exception('dvipng error')
-    depth = int(p.stdout.readlines()[-1].split('=')[-1])
+    depth_output = result.stdout.splitlines()
+    if not depth_output:
+      raise RuntimeError('dvipng did not return equation depth')
+    depth = int(depth_output[-1].split('=', 1)[-1])
   finally:
     # Clean up.
     for ext in exts:
@@ -1006,9 +1026,9 @@ def geneq(f, eq, dpi, wl, outname):
   # Update the cache if we're using it.
   if f.eqcache and eqname not in eqdepths:
     try:
-      dc = open(os.path.join(f.eqdir, '.eqdepthcache'), 'ab')
-      dc.write(eqname + ' ' + str(depth) + '\n')
-      dc.close()
+      with open(os.path.join(f.eqdir, '.eqdepthcache'),
+                'a', encoding='utf-8') as dc:
+        dc.write(eqname + ' ' + str(depth) + '\n')
     except IOError:
       print('eqdepthcache update failed.')
   return (depth, eqname)
@@ -1152,9 +1172,19 @@ def codeblock(f, g):
   elif ext_prog:
     print('filtering through %s...' % ext_prog)
 
-    output,_ = Popen(ext_prog, shell=True, stdin=PIPE,
-                     stdout=PIPE).communicate(buff)
-    out(f.outf, output)
+    result = subprocess.run(
+        ext_prog,
+        shell=True,
+        input=buff,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        text=True,
+        check=False)
+    if result.returncode != 0:
+      raise RuntimeError(
+          'external filter failed with exit code %d: %s' %
+          (result.returncode, ext_prog))
+    out(f.outf, result.stdout)
   else:
     if g[1] == 'jemdoc':
       out(f.outf, f.conf['codeblockendtt'])

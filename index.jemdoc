@@ -1,32 +1,31 @@
+# jemdoc: nofooter
+
 = Dawen Liang 
 
 ~~~
 {}{img_left}{files/dawen.jpg}{Dawen Liang}{124}{140} \n
-Email: {{<img src="files/email.png" alt="email" width="90">}} \n
+Email: {{<img src="files/email.png" alt="email address" width="150" style="vertical-align: middle;">}} \n
 
-I am a member of technical staff at [https://x.ai/ xAI]. Before that, I was a research scientist at [https://www.netflix.com/ Netflix] and worked on personalization, policy learning, and LLM post-training. I completed my Ph.D. in the [http://www.ee.columbia.edu/ Electrical
-Engineering Department] at [http://www.columbia.edu/ Columbia University], 
+I am a machine learning researcher at [https://openai.com/ OpenAI]. Previously I worked at [https://x.ai/ xAI] and [https://www.netflix.com/ Netflix], focusing on LLM post-training, policy learning, and personalization. I completed my Ph.D. in the [https://www.ee.columbia.edu/ Electrical
+Engineering Department] at [https://www.columbia.edu/ Columbia University],
 as part of the [http://labrosa.ee.columbia.edu LabROSA],
-working with [http://www.ee.columbia.edu/~dpwe/ Professor Dan
-Ellis] and [http://www.cs.columbia.edu/~blei/ Professor David Blei].
+working with [https://www.ee.columbia.edu/~dpwe/ Professor Dan
+Ellis] and [https://www.cs.columbia.edu/~blei/ Professor David Blei].
 Prior to that, I completed my master's degree in
-[http://www.cs.cmu.edu/~music/mat/index.html Music and Technology program] at
-[http://www.cmu.edu/index.shtml Carnegie Mellon University], working with
-[http://www.cs.cmu.edu/~rbd Professor Roger Dannenberg] in the
-[http://www.cs.cmu.edu School of Computer Science], where I was part of the
-[http://www.cs.cmu.edu/~music/ Computer Music Group]. 
+[https://www.cmu.edu/cfa/music/programs/graduate-programs/grad-music-technology.html Music and Technology program] at
+[https://www.cmu.edu/index.shtml Carnegie Mellon University], working with
+[https://www.cs.cmu.edu/~rbd Professor Roger Dannenberg] in the
+[https://www.cs.cmu.edu School of Computer Science], where I was part of the
+[https://www.cs.cmu.edu/~music/ Computer Music Group].
 ~~~
 
-== Papers
+== Publications
 
-For the most up-to-date information please see my [https://scholar.google.com/citations?user=4c1ZNm4AAAAJ&hl=en Google Scholar] page.
+For the most up-to-date information, please see my [https://scholar.google.com/citations?user=4c1ZNm4AAAAJ&hl=en Google Scholar] page.
 
 
 == Miscellaneous
-Here are some (very old) notes regarding some topics I found interesting. 
-I wrote these just for fun (and I hope they can be useful to someone in the future).
-Therefore, there might be mistakes/errors in these notes. 
-If you find any problems, please let me know.
+Here are some old notes on topics I once spent time learning about. They unfortunately become increasingly irrelevant in the current age of LLMs, but I keep them here as a small piece of technical nostalgia. I hope they may still be useful to someone, though they may contain mistakes or outdated information. If you notice any problems, please let me know.
 
 - [files/mle_biased.pdf A proof] that Maximum Likelihood Estimation (MLE) is
   biased for variance estimator.
@@ -34,4 +33,3 @@ If you find any problems, please let me know.
   derivative.
 - [files/em.pdf Some technical details] for the Expectation Maximization (EM)
   algorithm.
-
